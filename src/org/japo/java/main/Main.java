@@ -30,14 +30,11 @@ public class Main {
         int h;
         int m;
         int s;
-        
-        Calendar cal= Calendar.getInstance();
-        
-        h= cal.get(Calendar.HOUR_OF_DAY);
-        m=cal.get(Calendar.MINUTE);
-        s=cal.get(Calendar.SECOND);
-        
+
+        Calendar cal = Calendar.getInstance();
+        h = cal.get(Calendar.HOUR_OF_DAY);
+        m = cal.get(Calendar.MINUTE);
+        s = cal.get(Calendar.SECOND);
         System.out.printf("Hora de sistema......:%02d:%02d:%02d%n", h, m, s);
     }
-    
 }
